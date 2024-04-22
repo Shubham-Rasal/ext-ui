@@ -3,7 +3,7 @@
   "workbench.settings.editor": "ui",
 
   // Theme
-  "workbench.colorTheme": "Aura Soft Dark",
+  "workbench.colorTheme": "Default Dark Modern",
   "workbench.iconTheme": "material-icon-theme",
 
   // Change font
@@ -113,5 +113,6 @@
   "editor.guides.bracketPairs": true,
   "window.zoomLevel": 0,
   "cSpell.languageSettings": [],
-  "rust-analyzer.debug.engineSettings": {}
+  "rust-analyzer.debug.engineSettings": {},
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }

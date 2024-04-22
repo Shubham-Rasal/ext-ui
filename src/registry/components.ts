@@ -49,6 +49,13 @@ const extension: Registry = [
     dependencies: ["react-dropzone", "embla-carousel-react", "embla-carousel"],
     files: ["extension/image-carousel-upload.tsx"],
   },
+  {
+    name: "sample-component",
+    type: "components:extension",
+    dependencies: [],
+    files: ["extension/sample-component.tsx"],
+  },
+
 ];
 
 const demos: Registry = [
@@ -87,6 +94,12 @@ const demos: Registry = [
     type: "components:demo",
     registryDependencies: ["breadcrumb"],
     files: ["example/breadcrumb-demo.tsx"],
+  },
+  {
+    name: "sample-component-demo",
+    type: "components:demo",
+    registryDependencies: [], // include names of any packages this component depends on.
+    files: ["example/sample-component-demo.tsx"],
   },
 ];
 

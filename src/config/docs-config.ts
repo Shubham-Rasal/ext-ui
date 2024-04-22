@@ -60,6 +60,11 @@ export const docsConfig: DocsConfig[] = [
         title: "File upload",
         path: "/docs/file-upload",
       },
+
+      {
+        title: "Sample component",
+        path: "/docs/sample-component",
+      },
     ],
   },
 ];

@@ -61,6 +61,13 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/default/extension/image-carousel-upload.tsx")),
       files: ["src/registry/default/extension/image-carousel-upload.tsx"],
     },
+    "sample-component": {
+      name: "sample-component",
+      type: "components:extension",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/extension/sample-component.tsx")),
+      files: ["src/registry/default/extension/sample-component.tsx"],
+    },
     "tree-view-demo": {
       name: "tree-view-demo",
       type: "components:demo",
@@ -102,6 +109,13 @@ export const Index: Record<string, any> = {
       registryDependencies: ["breadcrumb"],
       component: React.lazy(() => import("@/registry/default/example/breadcrumb-demo.tsx")),
       files: ["src/registry/default/example/breadcrumb-demo.tsx"],
+    },
+    "sample-component-demo": {
+      name: "sample-component-demo",
+      type: "components:demo",
+      registryDependencies: [],
+      component: React.lazy(() => import("@/registry/default/example/sample-component-demo.tsx")),
+      files: ["src/registry/default/example/sample-component-demo.tsx"],
     },
     "tree-view-builtin-indicator": {
       name: "tree-view-builtin-indicator",

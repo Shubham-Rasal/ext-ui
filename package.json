@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
+    "gen": "contentlayer2 dev",
+    "register":"build:registry",
     "build": "contentlayer2 build && npm run build:registry && next build",
     "start": "next start",
     "lint": "next lint",
